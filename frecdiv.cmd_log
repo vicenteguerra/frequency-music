@@ -1,0 +1,24 @@
+xst -ise "D:/Usuarios/dsd06alu24/Desktop/p8/frecdiv/frecdiv.ise" -intstyle ise -ifn frecdiv.xst -ofn frecdiv.syr
+ngdbuild -ise "D:/Usuarios/dsd06alu24/Desktop/p8/frecdiv/frecdiv.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-5 "frecdiv.ngc" frecdiv.ngd
+ngdbuild -ise "D:/Usuarios/dsd06alu24/Desktop/p8/frecdiv/frecdiv.ise" -intstyle ise -dd _ngo -nt timestamp -uc "frecdiv.ucf" -p xc3s200-ft256-5 "frecdiv.ngc" frecdiv.ngd
+xst -ise "C:/Documents and Settings/Administrador/Escritorio/p8/frecdiv/frecdiv.ise" -intstyle ise -ifn frecdiv.xst -ofn frecdiv.syr
+ngdbuild -ise "C:/Documents and Settings/Administrador/Escritorio/p8/frecdiv/frecdiv.ise" -intstyle ise -dd _ngo -nt timestamp -uc "frecdiv.ucf" -p xc3s200-ft256-5 "frecdiv.ngc" frecdiv.ngd
+map -ise "C:/Documents and Settings/Administrador/Escritorio/p8/frecdiv/frecdiv.ise" -intstyle ise -p xc3s200-ft256-5 -cm area -pr b -k 4 -c 100 -o frecdiv_map.ncd frecdiv.ngd frecdiv.pcf
+xst -ise "C:/Documents and Settings/Administrador/Escritorio/p8/frecdiv/frecdiv.ise" -intstyle ise -ifn frecdiv.xst -ofn frecdiv.syr
+ngdbuild -ise "C:/Documents and Settings/Administrador/Escritorio/p8/frecdiv/frecdiv.ise" -intstyle ise -dd _ngo -nt timestamp -uc "frecdiv.ucf" -p xc3s100e-cp132-4 "frecdiv.ngc" frecdiv.ngd
+map -ise "C:/Documents and Settings/Administrador/Escritorio/p8/frecdiv/frecdiv.ise" -intstyle ise -p xc3s100e-cp132-4 -cm area -pr b -k 4 -c 100 -o frecdiv_map.ncd frecdiv.ngd frecdiv.pcf
+par -ise "C:/Documents and Settings/Administrador/Escritorio/p8/frecdiv/frecdiv.ise" -w -intstyle ise -ol std -t 1 frecdiv_map.ncd frecdiv.ncd frecdiv.pcf
+trce -ise "C:/Documents and Settings/Administrador/Escritorio/p8/frecdiv/frecdiv.ise" -intstyle ise -e 3 -l 3 -s 4 -xml frecdiv frecdiv.ncd -o frecdiv.twr frecdiv.pcf -ucf frecdiv.ucf
+bitgen -ise "C:/Documents and Settings/Administrador/Escritorio/p8/frecdiv/frecdiv.ise" -intstyle ise -f frecdiv.ut frecdiv.ncd
+xst -ise "C:/Documents and Settings/Administrador/Escritorio/p8/frecdiv/frecdiv.ise" -intstyle ise -ifn frecdiv.xst -ofn frecdiv.syr
+ngdbuild -ise "C:/Documents and Settings/Administrador/Escritorio/p8/frecdiv/frecdiv.ise" -intstyle ise -dd _ngo -nt timestamp -uc "frecdiv.ucf" -p xc3s100e-cp132-4 "frecdiv.ngc" frecdiv.ngd
+map -ise "C:/Documents and Settings/Administrador/Escritorio/p8/frecdiv/frecdiv.ise" -intstyle ise -p xc3s100e-cp132-4 -cm area -pr b -k 4 -c 100 -o frecdiv_map.ncd frecdiv.ngd frecdiv.pcf
+par -ise "C:/Documents and Settings/Administrador/Escritorio/p8/frecdiv/frecdiv.ise" -w -intstyle ise -ol std -t 1 frecdiv_map.ncd frecdiv.ncd frecdiv.pcf
+trce -ise "C:/Documents and Settings/Administrador/Escritorio/p8/frecdiv/frecdiv.ise" -intstyle ise -e 3 -l 3 -s 4 -xml frecdiv frecdiv.ncd -o frecdiv.twr frecdiv.pcf -ucf frecdiv.ucf
+xst -ise "C:/Documents and Settings/Administrador/Escritorio/p8/frecdiv/frecdiv.ise" -intstyle ise -ifn frecdiv.xst -ofn frecdiv.syr
+xst -ise "C:/Documents and Settings/Administrador/Escritorio/p8/frecdiv/frecdiv.ise" -intstyle ise -ifn frecdiv.xst -ofn frecdiv.syr
+xst -ise "C:/Documents and Settings/Administrador/Escritorio/p8/frecdiv/frecdiv.ise" -intstyle ise -ifn frecdiv.xst -ofn frecdiv.syr
+xst -ise "C:/Documents and Settings/Administrador/Escritorio/p8/frecdiv/frecdiv.ise" -intstyle ise -ifn frecdiv.xst -ofn frecdiv.syr
+xst -ise "C:/Documents and Settings/Administrador/Escritorio/p8/frecdiv/frecdiv.ise" -intstyle ise -ifn frecdiv.xst -ofn frecdiv.syr
+xst -ise "C:/Documents and Settings/Administrador/Escritorio/p8/frecdiv/frecdiv.ise" -intstyle ise -ifn frecdiv.xst -ofn frecdiv.syr
+xst -ise "C:/Documents and Settings/Administrador/Escritorio/p8/frecdiv/frecdiv.ise" -intstyle ise -ifn frecdiv.xst -ofn frecdiv.syr
